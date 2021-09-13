@@ -21,9 +21,9 @@ body {
         a:hover {
           background-color: $color;
           color: white;
-        }
-        a:hover i {
-          color: #F3BA64;
+          i {
+            color: #F3BA64;
+          }
         }
       }
     }
