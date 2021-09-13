@@ -1,0 +1,29 @@
+body {
+  font-family: "Varta", sans-serif;
+}
+body nav {
+  width: 300px;
+  border-right: 5px solid #0966C2;
+  height: 100vh;
+}
+body nav ul {
+  list-style-type: none;
+  margin: 0;
+  font-size: 2rem;
+  padding: 0;
+}
+body nav ul li a {
+  text-decoration: none;
+  color: #0966C2;
+  display: block;
+  padding: 1rem;
+}
+body nav ul li a:hover {
+  background-color: #0966C2;
+  color: white;
+}
+body nav ul li a:hover i {
+  color: #F3BA64;
+}
+
+/*# sourceMappingURL=style.css.map */
