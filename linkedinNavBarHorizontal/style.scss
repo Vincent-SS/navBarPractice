@@ -1,0 +1,51 @@
+$color: #0966C2;
+
+body {
+  font-family: 'Varta', sans-serif;
+  margin: 0;
+  nav {
+    border-bottom: 5px solid $color;
+    ul {
+      /* vertical-align: middle;
+      // position to the right end
+      display: flex;
+      justify-content: flex-end; */
+      font-size: 1.5rem;
+      li {
+        display: inline-block;
+        list-style-type: none;
+        vertical-align: middle;
+        margin: 1rem;
+        text-align: center;
+        a {
+          border-radius: 1rem;
+          display: flex;
+          flex-direction: column;
+          text-decoration: none;
+          padding: 10px;
+          i {
+            display: block;
+            text-align: center;
+            margin: .7rem;
+          }
+          .fa-linkedin{
+            margin-right: auto;
+          }
+        }
+        .links:hover {
+          color:white;
+          background-color: #0966C2;
+        }
+      }
+      li:first-child {
+        margin-right: auto;
+      }
+      .nav-links {
+        display: inline;
+        position: absolute;
+        right: 0;
+        margin-top: 1vw;
+      }
+    }
+  }
+}
